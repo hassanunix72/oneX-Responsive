@@ -1,0 +1,22 @@
+.Animation{
+    background:linear-gradient(90deg, rgba(17,14,84,1) 0%, rgba(195,32,81,1) 50%, rgba(192,35,83,1) 51%, rgba(22,169,193,1) 100%);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  
